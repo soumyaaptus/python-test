@@ -3,11 +3,11 @@ import sys
 
 
 def hello(what):
-    print('Hello, {}!'.format(what))
+    print("Hello, {}!".format(what))
 
 
 def say_what():
-    return 'world'
+    return "world"
 
 
 def main():
@@ -15,5 +15,5 @@ def main():
     return 0
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     sys.exit(main())
